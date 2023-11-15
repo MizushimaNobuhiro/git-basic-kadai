@@ -1,0 +1,12 @@
+PS C:\Users\mizushiman\Desktop\kadai_oo4> cd C:\Users\mizushiman\Desktop\kadai_oo4\git_challenge
+PS C:\Users\mizushiman\Desktop\kadai_oo4\git_challenge> git init
+Initialized empty Git repository in C:/Users/mizushiman/Desktop/kadai_oo4/git_challenge/.git/
+PS C:\Users\mizushiman\Desktop\kadai_oo4\git_challenge> git add hello_world.txt
+PS C:\Users\mizushiman\Desktop\kadai_oo4\git_challenge> git commit -m "最初のコミットです"
+[main (root-commit) f3543bf] 最初のコミットです
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+PS C:\Users\mizushiman\Desktop\kadai_oo4\git_challenge> git add hello_world.txt
+PS C:\Users\mizushiman\Desktop\kadai_oo4\git_challenge> git commit -m "日本語訳を追加"
+[main 7c85c62] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
