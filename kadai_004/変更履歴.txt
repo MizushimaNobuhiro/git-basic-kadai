@@ -1,0 +1,54 @@
+PS C:\Users\mizushiman> cd C:\Users\mizushiman\Desktop\kadai_004
+PS C:\Users\mizushiman\Desktop\kadai_004> mkdir git_challenge
+
+
+    ディレクトリ: C:\Users\mizushiman\Desktop\kadai_004
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2023/11/17      1:47                git_challenge
+PS C:\Users\mizushiman\Desktop\kadai_004> cd git_challenge
+PS C:\Users\mizushiman\Desktop\kadai_004\git_challenge> git init
+fatal: pathspec 'hello_world' did not match any files
+PS C:\Users\mizushiman\Desktop\kadai_004\git_challenge> git commit -m "最初のコミット"
+
+Initial commit
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        hello_world.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\mizushiman\Desktop\kadai_004\git_challenge> git add hello_world.txt
+PS C:\Users\mizushiman\Desktop\kadai_004\git_challenge> git commit -m "最初のコミット"
+[main (root-commit) fc14946] 最初のコミット
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\mizushiman\Desktop\kadai_004\git_challenge> git add hello_world.txt
+PS C:\Users\mizushiman\Desktop\kadai_004\git_challenge> git commit -m "2回目"
+[main 37ea8d9] 2回目
+ 1 file changed, 1 insertion(+)
+PS C:\Users\mizushiman\Desktop\kadai_004\git_challenge> git add hello_world.txt
+PS C:\Users\mizushiman\Desktop\kadai_004\git_challenge> git commit -m "3回目_日本語訳を入力"
+[main 09c7088] 3回目_日本語訳を入力
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\Users\mizushiman\Desktop\kadai_004\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\mizushiman\Desktop\kadai_004\git_challenge> git log
+commit 09c708832e69dda05fbf98475983105528f8df4d (HEAD -> main)
+Author: Mizushima-Nobuhiro <renon1201@gmail.com>
+Date:   Fri Nov 17 01:53:42 2023 +0900
+
+    3回目_日本語訳を入力
+
+commit 37ea8d93ff4eb6f4798c59bff7901a227e7dd278
+Author: Mizushima-Nobuhiro <renon1201@gmail.com>
+Date:   Fri Nov 17 01:52:24 2023 +0900
+
+    2回目
+
+commit fc14946af4aecedb402b470257bf4648be7ca5ef
+Author: Mizushima-Nobuhiro <renon1201@gmail.com>
+Date:   Fri Nov 17 01:51:20 2023 +0900
+
+    最初のコミット
+PS C:\Users\mizushiman\Desktop\kadai_004\git_challenge> 
